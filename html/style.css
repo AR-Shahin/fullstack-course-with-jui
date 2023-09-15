@@ -1,0 +1,54 @@
+   *{
+   }
+   h2 {
+       color: green;
+   }
+
+   .heading {
+       color: red;
+   }
+
+   #content {
+       color: rgba(3,3,3,.2);
+       /* background-color: red; */
+       
+   }
+
+   .ars{
+    height: 500px;
+
+    background-image: url("./bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 50%;
+    background-attachment: fixed;
+   }
+
+div p{
+    color: aqua;
+}
+div .title{
+    color: darkblue;
+}
+
+.menusection div p{
+
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background: #000;
+    /* margin: 100px; */
+    /* margin-top: 100px;
+    margin-left: 30px; */
+    /* margin: 200px 300px 40px 20px; */
+    /* margin: 200px 300px; */
+    margin: 0 auto;
+    border: 3px solid red;
+   
+}
+
+.aaa{
+    padding: 20px 30px 40px 20px;
+}
