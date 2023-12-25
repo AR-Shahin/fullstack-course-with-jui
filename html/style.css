@@ -1,5 +1,9 @@
 *{
-    box-sizing: border-box;
+    /* box-sizing: border-box;
+    margin: 10px 100px 10px 30px;
+    padding: 10px 30px 40px 50px;
+    margin-top: 30px;
+    margin-left: 30px ; */
 }
 
 button{
@@ -42,4 +46,46 @@ p{
 
 .btn:hover{
     background: #000;
+}
+
+h2{
+    background: red;
+    /* display: inline; */
+    z-index: 1;
+}
+
+span{
+    background: green;
+    display: inline-block;
+    padding: 20px;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background: orange;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    /* right: 100px;
+    bottom: 330px;
+    top: 0;
+    left: 0; */
+    z-index: -1;
+    overflow: scroll;
+}
+
+.parent{
+    height: 200px;
+    width: 400px;
+    border: 1px solid;
+    position: relative;
+}
+.child{
+    height: 50px;
+    width: 50px;
+    background: red;
+    position: absolute;
+    top: 50px;
+    left: 50px;
 }
