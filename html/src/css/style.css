@@ -1,0 +1,35 @@
+img{
+    width: 1000px;
+}
+
+h2{
+    /* margin: 100px 50px 100px 30px; */
+   /* padding: 100px; */
+   /* font-size: ; */
+
+}
+
+.btn{
+    margin: 100px;
+    display: inline-block;
+    background: green;
+    padding: 30px 40px;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background-color: red;
+}
+
+.abc{
+    /* display: inline-block; */
+    background: red;
+    padding: 10px;
+    width: 130px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
